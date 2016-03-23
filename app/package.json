@@ -9,6 +9,7 @@
   },
   "main": "app/index.js",
   "dependencies": {
+    "express": "*",
     "bower": "*",
     "http-server": "*",
     "karma": "*",
