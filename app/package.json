@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Demo angular app",
   "scripts": {
-    "start": "node server",
+    "start": "node app",
     "predeploy": "echo im about to deploy",
     "postdeploy": "echo ive deployed"
   },
-  "main": "server/app.js",
+  "main": "app/index.js",
   "dependencies": {
     "bower": "*",
     "http-server": "*",
