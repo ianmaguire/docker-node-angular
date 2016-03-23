@@ -9,11 +9,8 @@
   },
   "main": "app/index.js",
   "dependencies": {
-    "express": "*",
-    "bower": "*",
-    "http-server": "*",
-    "karma": "*",
-    "protractor": "*"
+    "angular": "*",
+    "http-server": "*"
   },
   "private": true
 }
