@@ -2,15 +2,11 @@
   "name": "angular-demo",
   "version": "0.1.0",
   "description": "Demo angular app",
-  "scripts": {
-    "start": "node app",
-    "predeploy": "echo im about to deploy",
-    "postdeploy": "echo ive deployed"
-  },
-  "main": "app/index.js",
+  "main": "app/server.js",
   "dependencies": {
-    "angular": "*",
-    "http-server": "*"
-  },
-  "private": true
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "method-override": "~1.0.0"
+  }
 }
